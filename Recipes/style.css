@@ -1,14 +1,15 @@
 body {
-    background: lightgray;
+    background: white;
 }
 
 #contents {
     border: 3px solid black;
-    border-radius: .5%;
+    border-radius: 1%;
     text-align: left;
     margin: auto;
     padding: 1rem;
     width: max(70%, 400px);
+    background-color: lightgray;
 }
 
 img {
@@ -20,9 +21,13 @@ img {
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 0%;
 }
 
 h3 {
-    font-weight: 500;
+    font-size: medium;
+    font-weight: bold;
 }
